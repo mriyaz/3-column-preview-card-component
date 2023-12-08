@@ -14,7 +14,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Live Site URL: [3-column preview card component](https://github.com/mriyaz/3-column-preview-card-component.git)
+- Live Site URL: [3-column preview card component](hhttps://mriyaz.github.io/3-column-preview-card-component/)
 
 
 ## My process
