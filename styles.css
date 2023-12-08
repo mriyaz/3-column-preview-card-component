@@ -1,0 +1,114 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 45%;
+    padding: 5%;
+    margin: auto;
+}
+
+.card {
+
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    /* Adjust for readability */
+    line-height: 1.6;
+    margin-bottom: 30%;
+}
+
+button {
+
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: inherit;
+    border: solid 1px hsl(0, 0%, 95%);
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        max-width: 90%;
+
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        /* Adjust font size for mobile */
+    }
+
+    p {
+        font-size: 12px;
+        /* Adjust font size for mobile */
+        margin-bottom: 5%;
+        /* Adjust margin for mobile */
+    }
+
+    button {
+        padding: 5px 15px;
+        margin-bottom: 3%;
+        /* Adjust padding for mobile */
+    }
+}
